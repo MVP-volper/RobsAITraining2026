@@ -96,4 +96,52 @@ RobsAITraining2026/
 
 ---
 
-**Start with:** Step 4 (Use Plan Agent)
+## 🆕 ADDITIONAL ADVANCED EXERCISE
+
+### Advanced Exercise: Update a Python Web API with GitHub Copilot
+**Source:** Microsoft Learn - Advanced GitHub Copilot Module  
+**URL:** https://learn.microsoft.com/en-us/training/modules/advanced-github-copilot/5-exercise-update-a-web-api
+
+**Exercise Overview:**
+Learn advanced Copilot techniques with Python API development:
+- Use inline chat (Ctrl+i) to generate API routes
+- Create tests with the `/tests` slash command
+- Generate documentation with Agent mode
+
+**Exercise Parts:**
+1. **Part 1: Add New Route** (10 min)
+   - Use inline chat to create `/countries/{country}` endpoint
+   - Returns list of cities for that country
+   - Deliverable: `python-api-starter.py` updated
+
+2. **Part 2: Create Tests** (10 min)
+   - Generate unit tests using `/tests` slash command
+   - Test the new route with Spain as test country
+   - Deliverable: `test-starter.py` updated
+
+3. **Part 3: Write Documentation** (10 min)
+   - Use Agent mode to generate comprehensive README
+   - Document how to run the project
+   - Include API endpoint examples
+   - Deliverable: README.md updated
+
+**Files Provided:**
+- `/exercises/WEB-API-UPDATE-EXERCISE.md` - Complete exercise guide
+- `/exercises/python-api-starter.py` - Python FastAPI starter code
+- `/exercises/test-starter.py` - Test template
+
+**Copilot Features Demonstrated:**
+- Inline Chat (Ctrl+i) for quick code generation
+- Slash Commands (/tests) for test generation
+- Agent Mode for comprehensive analysis
+- Code Selection for targeted suggestions
+- Iterative Refinement for better results
+
+**Status**: ✅ READY TO BEGIN  
+**Difficulty**: Intermediate  
+**Time Estimate**: 35 minutes  
+**Skills Covered**: API development, testing, documentation, advanced Copilot features
+
+---
+
+**Start with:** Advanced Exercise (Update Python Web API)
